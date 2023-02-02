@@ -5,7 +5,7 @@
 } 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(239, 232, 232);
+    background-color: #301E67;
     
 }
 header{
@@ -48,6 +48,7 @@ header{
 width: 450px;
 height: 150px;
 object-fit: cover;
+
 }
     
 #inicio{
@@ -75,21 +76,16 @@ header img{
 li:hover{
     border: solid 5px #03001C ;
 }
-li:active{
-        background-image:url(images/Recompensa_de_Trafalgar_Law.webp);
-        width: 1400PX;
-        height: 600PX;
-        background-position: 100PX;
-        background-repeat: no-repeat;
 
-}
 h3{
-    font-size: 30px;
+    font-size: 40px;
     width: 300px;
     margin: auto;
     margin-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     text-align: center;
+    color: #F49D1A;
+    text-shadow:2px 2px 10px orange;
 }
 #llista{
     height: 200px;
@@ -99,7 +95,7 @@ h3{
     width: 150px;
     height: 200px;
     display: inline-block;
-    margin-right: 20px;
+
     border-radius: 15px;
     margin-bottom:20px
 }
